@@ -1,0 +1,35 @@
+.logo{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+*{
+    font-family: Arial;
+}
+
+.row_even{
+    background-color: rgb(195, 195, 195);
+    color: white;
+}
+
+.row_odd{
+    background-color: white;
+
+}
+
+tbody > tr:hover{
+    background-color: rgb(191, 133, 131);
+}
+
+
+td{
+    border: 1px solid black;
+    width: 150px;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Customer</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+<body class="container">
+  <div>
+    <h1>AuchanStore</h1>
+    <p>Vos informations personnelles</p>
+  </div>
+  <div>
+    <img src="img/auchan.png" alt="logo" class="logo">
+  </div>
+
+  <div>
+    <form class="" action="customer.html" method="post">
+     <div class="row"> 
+      <div class="form-group" col-sm-6>
+        <label for="firstname">Firstname</label>
+        <input class="form-control" type="text" id="firstname" name="firstname" value="" required minlength="2">
+      </div>
+      <div class="form-group" col-sm-6>
+        <label for="lastname">Lastname</label>
+        <input class="form-control"  type="text" id="lastname" name="Lastname" value="" required minlength="2">
+      </div>
+    </div>  
+
+      <div class="form-group">
+        <label for="gender">Gender</label>
+        <input type="radio" id="gender" name="gender" value="m">Male 
+        <input type="radio" id="gender" name="gender" value="f">Female
+      </div>
+      <div class="form-group">
+        <label for="birthday">Birthday</label>
+        <input class="form-control"  type="date" id="birthday" name="birthday" >
+      </div>
+
+      <div class="form-group">
+        <label for="street">Street</label>
+        <input class="form-control"  type="text" id="street" name="street" value="" required>
+      </div>
+      <div class="row">
+      <div class="form-group" col-sm-4>
+        <label for="zipcode">Zip code</label>
+        <input class="form-control"  type="number" id="zipcode" name="zipcode" value="" required max="99999">
+      </div>
+      <div class="form-group" col-sm-4>
+        <label for="city">City</label>
+        <input class="form-control"  type="text" id="city" name="city" value="" required>
+      </div>
+    </div>
+      <div class="form-group">
+        <button class="btn btn-succes" type="submit">Valider</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="index.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+
+</html>

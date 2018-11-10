@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Customer</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div>
+    <h1>AuchanStore</h1>
+    <p>Vos informations personnelles</p>
+  </div>
+  <div>
+    <img src="img/auchan.png" alt="logo" class="logo">
+  </div>
+
+  <div>
+    <form class="" action="customer.html" method="post">
+      <div>
+        <label for="firstname">Firstname</label>
+        <input type="text" id="firstname" name="firstname" value="" required minlength="2">
+      </div>
+      <div>
+        <label for="lastname">Lastname</label>
+
+        <input type="text" id="lastname" name="Lastname" value="" required minlength="2">
+      </div>
+      <div>
+        <label for="gender">Gender</label>
+        <input type="radio" id="gender" name="gender" value="m">Male</input>
+        <input type="radio" id="gender" name="gender" value="f">Female</input>
+      </div>
+      <div>
+        <label for="birthday">Birthday</label>
+        <input type="date" id="birthday" name="birthday" >
+      </div>
+      <div>
+        <label for="street">Street</label>
+        <input type="text" id="street" name="street" value="" required>
+      </div>
+      <div>
+        <label for="zipcode">Zip code</label>
+        <input type="number" id="zipcode" name="zipcode" value="" required max="99999">
+      </div>
+      <div>
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" value="" required>
+      </div>
+      <div>
+        <button type="submit">Valider</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

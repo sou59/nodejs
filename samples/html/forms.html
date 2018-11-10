@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Form Gallery</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <form>
+            <table>
+                <tbody>
+                    <tr align="left">
+                        <th>type</th>
+                        <th>syntaxe</th>
+                        <th>exemple</th>
+                    </tr>
+                    <tr>
+                        <td colspan="3">&nbsp;</td>
+                    </tr>
+                    <tr align="left" valign="top">
+                        <td><em>sans</em></td>
+                        <td><code>&lt;input name="ident"&gt;</code></td>
+                        <td><input name="ident"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">&nbsp;</td>
+                    </tr>
+                    <tr align="left" valign="top">
+                        <td></td>
+                        <td><code>&lt;input name="ident" value="Par défaut"&gt;</code></td>
+                        <td><input name="ident" value="Par défaut"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">&nbsp;</td>
+                    </tr>
+                    <tr align="left" valign="top">
+                        <td><strong>submit</strong></td>
+                        <td><code>&lt;input type="submit" value="Envoi"&gt;</code></td>
+                        <td><input type="submit" value="envoi"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">&nbsp;</td>
+                    </tr>
+                    <tr align="left" valign="top">
+                        <td><strong>checkbox</strong></td>
+                        <td><code>&lt;input type="checkbox" name="pfm" value="linux" checked&gt; Linux&lt;BR&gt;<br>
+&lt;input type="checkbox" name="pfm" value="dos"&gt; Dos&lt;BR&gt;<br>
+&lt;input type="checkbox" name="pfm" value="win"&gt; Windows</code></td>
+                        <td><input type="checkbox" name="pfm" value="linux" checked="">Linux<br><input type="checkbox" name="pfm"
+                                value="dos">Dos<br><input type="checkbox" name="pfm" value="win">Windows</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">&nbsp;</td>
+                    </tr>
+                    <tr align="left" valign="top">
+                        <td><strong>radio</strong></td>
+                        <td><code>&lt;input type="radio" name="media" value="cd" checked&gt; CD-ROM&lt;BR&gt;<br> &lt;input type="radio" name="media" value="dk"&gt; Disquette</code></td>
+                        <td><input type="radio" name="media" value="cd" checked=""> CD-ROM<br><input type="radio" name="media"
+                                value="dk"> Disquette</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">&nbsp;</td>
+                    </tr>
+                    <tr align="left" valign="top">
+                        <td><strong>password</strong></td>
+                        <td><code>&lt;input type="password" name="pass"</code></td>
+                        <td><input type="password" name="pass"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">&nbsp;</td>
+                    </tr>
+                    <tr align="left" valign="top">
+                        <td><strong>reset</strong></td>
+                        <td><code>&lt;input type="reset" value="Efface"&gt;</code></td>
+                        <td><input type="reset" value="Efface"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">&nbsp;</td>
+                    </tr>
+                    <tr valign="top">
+                        <td><strong>textarea</strong></td>
+                        <td>&lt;textarea name="comm" rows=10 cols=40&gt;<br>Tapez vos commentaires ici<br>&lt;/textarea&gt;</td>
+                        <td><textarea name="comm" rows="10" cols="40">Tapez vos commentaires ici</textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">&nbsp;</td>
+                    </tr>
+                    <tr align="left" valign="top">
+                        <td><strong>select</strong></td>
+                        <td><code>&lt;select name="menu"&gt;<br>
+                            &lt;option&gt; Pomme<br>
+                            &lt;option&gt; Banane<br>
+                            &lt;option&gt; Orange<br>
+                            &lt;option selected&gt; Citron<br>
+                            &lt;option&gt; Pêche<br>
+                            &lt;option&gt; Poire<br>
+                            &lt;select &gt;
+                            </code></td>
+                                                    <td><select name="menu1">
+                            <option>Pomme
+                            </option><option>Banane
+                            </option><option>Orange
+                            </option><option selected="">Citron
+                            </option><option>Pêche
+                            </option><option>Poire
+                            </option></select></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="3">&nbsp;</td>
+                                                </tr>
+                                                <tr align="left" valign="top">
+                                                    <td></td>
+                                                    <td><code>&lt;select name="menu" size=4&gt;<br>
+                            ...</code></td>
+                                                    <td><select name="menu1" size="4">
+                            <option>Pomme
+                            </option><option>Banane
+                            </option><option>Orange
+                            </option><option selected="">Citron
+                            </option><option>Pêche
+                            </option><option>Poire
+                            </option></select></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="3">&nbsp;</td>
+                                                </tr>
+                                                <tr align="left" valign="top">
+                                                    <td></td>
+                                                    <td><code>&lt;select name="menu" size=4 multiple&gt;<br>
+                            ...</code></td>
+                                                    <td><select name="menu1" size="4" multiple="">
+                            <option>Pomme
+                            </option><option>Banane
+                            </option><option>Orange
+                            </option><option selected="">Citron
+                            </option><option>Pêche
+                            </option><option>Poire
+                            </option></select></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

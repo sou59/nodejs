@@ -1,0 +1,87 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* positionnement de l'image en haut à droite
+.logo {
+    float: right;
+}*/
+
+div.divlogo {
+    position: relative;
+}
+
+.logo {
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+ align-content: center;
+ margin: auto;
+}
+
+td {
+    width: 150px;
+}
+
+tr.odd {
+    background-color: cadetblue;
+    color: white;
+}
+
+tr:hover {
+    background-color: pink;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol.list1 {
+    list-style-type: upper-roman;
+}
+
+ol.list2 {
+    list-style-type: lower-roman;
+    color: red;
+}
+
+div.flex-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 200px;
+    border: 2px solid black;
+
+}
+
+div.flex-container .div1 {
+    order: 2;
+    flex-grow: 1;
+    background-color: purple;
+}
+
+div.flex-container .div2 {
+    order: 4;
+    flex-grow: 2;
+    background-color: pink;
+}
+
+div.flex-container .div3 {
+    order: 1;
+    flex-grow: 3;
+    background-color: blue;
+}
+
+div.flex-container .div4 {
+    order: 3;
+    flex-grow: 4;
+    background-color: aqua;
+}

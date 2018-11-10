@@ -1,0 +1,46 @@
+/* bordure tableau*/
+
+.odd {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.even {
+    background-color: rgba(0, 255, 200, 0.5);
+}
+
+.borderTable {
+
+    border: 1px solid black; 
+}
+
+#test {
+    color: red;
+}
+
+.titre {
+    color: deeppink;
+}
+
+img {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+/*
+img {
+    margin-left: 5px 0px 0px 5px;
+}
+
+td {
+    overflow:hidden;
+    
+}
+
+*/
+
+.longtext {
+    overflow:scroll;
+    width: 100px;
+    height: 100px;
+    
+}

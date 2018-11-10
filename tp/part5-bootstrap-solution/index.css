@@ -1,0 +1,15 @@
+
+img.add{
+  cursor: pointer;
+}
+
+.logo{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.centered{
+  margin: auto;
+  width: 100px;
+}

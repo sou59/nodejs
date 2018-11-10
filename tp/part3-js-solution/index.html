@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>AuchanStore</title>
+  <link rel="stylesheet" href="index.css" >
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+</head>
+
+<body>
+  <div>
+    <h1>AuchanStore</h1>
+    <p>Bienvenue sur AuchanStore</p>
+  </div>
+  <div>
+    <img src="img/auchan.png" alt="logo" class="logo">
+  </div>
+  <div>
+    <table id="articles" >
+      <caption><h2>Liste des articles<h2></caption>
+        <thead>
+          <tr>
+            <th>Libellé</th>
+            <th>Prix TTC</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="row_even">
+            <td>Article 1</td>
+            <td>10.90€</td>
+            <td><img src="img/cart.png" alt="image" class="add"/></td>
+          </tr>
+          <tr class="row_odd">
+            <td>Article 2</td>
+            <td>2.90€</td>
+            <td><img src="img/cart.png" alt="image" class="add"/></td>
+          </tr>
+          <tr class="row_even">
+            <td>Article 3</td>
+            <td>5.90€</td>
+            <td><img src="img/cart.png" alt="image" class="add"/></td>
+          </tr>
+          <tr class="row_odd">
+            <td>Article 4</td>
+            <td>24.90€</td>
+            <td><img src="img/cart.png" alt="image" class="add"/></td>
+          </tr>
+          <tr class="row_even">
+            <td>Article 5</td>
+            <td>29.90€</td>
+            <td><img src="img/cart.png" alt="image" class="add"/></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <caption><h2>Votre panier<h2></caption>
+        <tbody id="basket-content">
+        </tbody>
+      </table>
+    </div>
+    <script src="index.js"></script>
+  </body>
+  </html>

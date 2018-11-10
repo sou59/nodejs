@@ -1,0 +1,111 @@
+*{
+    font-family: Arial;
+}
+
+.logo{
+    width: 30%;
+}
+
+
+.row_even{
+    background-color: rgb(195, 195, 195);
+    color: white;
+}
+
+.row_odd{
+    background-color: white;
+
+}
+
+tbody > tr:hover{
+    background-color: rgb(191, 133, 131);
+}
+
+
+td{
+    border: 1px solid black;
+    width: 150px;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+
+section {
+    margin: 30px 30px;
+
+}
+
+#video {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    
+}
+div.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+video {
+    
+    align-content: center;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.panier {
+    margin: auto;
+    
+}
+
+#tablearticles {
+    margin-bottom: 20px;
+}
+
+#valider {
+    margin:auto;
+    display:block;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 50px;
+    line-height: 50px; /* Vertically center the text there */
+    background-color: #007bff;
+  }
+  
+  
+  /* Custom page CSS
+  -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+  
+  body > .container {
+    padding: 60px 15px 0;
+  }
+  
+  .footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  code {
+    font-size: 80%;
+  }

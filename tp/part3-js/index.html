@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>AuchanStore</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- HEADER avec navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#"><img src="img/auchan.png" alt="logo" class="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#tablearticles">Voir les articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#panier">Voir mon panier</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#formulaire">Aller au formulaire</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <div>
+      <h1>AuchanStore</h1>
+      <p id="test">Bienvenue sur AuchanStore</p>
+    </div>
+
+    <h2>Sélectionner vos articles</h2>
+    <div>
+      <table id="tablearticles">
+        <caption>
+          <h2>Liste des articles<h2>
+        </caption>
+        <thead>
+          <tr>
+            <th>Libellé</th>
+            <th>Prix TTC</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="row_even">
+            <td>Article 1</td>
+            <td>10.90€</td>
+            <td><img class="add" src="img/cart.png" alt="image" /></td>
+          </tr>
+          <tr class="row_odd">
+            <td>Article 2</td>
+            <td>2.90€</td>
+            <td><img class="add" src="img/cart.png" alt="image" /></td>
+          </tr>
+          <tr class="row_even">
+            <td>Article 3</td>
+            <td>5.90€</td>
+            <td><img class="add" src="img/cart.png" alt="image" /></td>
+          </tr>
+          <tr class="row_odd">
+            <td>Article 4</td>
+            <td>24.90€</td>
+            <td><img class="add" src="img/cart.png" alt="image" /></td>
+          </tr>
+          <tr class="row_even">
+            <td>Article 5</td>
+            <td>29.90€</td>
+            <td><img class="add" src="img/cart.png" alt="image" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+     <div class="panier">
+      <table id="panier">
+        <caption>
+          <h2 id="panier">Votre panier</h2>
+          
+        </caption>
+        <thead>
+        </thead>
+        <tbody id="basket-content">
+        </tbody>
+      </table>
+      
+      <button id="valider" type="submit">Valider votre panier</button>
+    </div>
+
+    <div class="flex-container" id="video">
+      <video width="auto" height="auto" controls>
+       <source src="video/chiot.mp4" type="video/mp4">
+        Your browser does not support the video element.
+      </video>
+    </div>
+
+    <!-- <p id="test2">Bienvenue sur AuchanStore</p>
+
+  <p id="test3"></p>
+
+  <p id="test4"></p>-->
+
+  <form id="formulaire" action="" method="post">
+    <label for="username" >Username :</label>
+    <!--  <input type="text" id="username" onclick="doSomething();" />-->
+    <input type="text" id="username" pattern="[A-Z]{3}[0-9]{4}" required placeholder="xxx9999" />
+
+    <label for="password">Password :</label>
+    <!--  <input type="text" id="password" onclick="doSomething();" />-->
+    <input type="text" id="password"  maxlength="3" placeholder="111" autocomplete="off" autofocus/>
+
+    <button type="submit" id="monbutton" >Envoyer</button>
+  </form>
+  <br/>
+  <div class="pt-5">
+      <a href="http://www.google.fr" target="_blank" onclick="return false;">Lien vers Google</a>
+  </div>
+
+  
+  </section>
+
+  <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Place sticky footer content here.</span>
+      </div>
+  </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/index.js"></script>
+  <!-- <script src="js/index.js"></script> -->
+
+</body>
+
+</html>

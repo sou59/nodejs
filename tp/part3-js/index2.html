@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+</head>
+<body>
+    
+    <div class="flex-container">
+        <label for="local" >Local Storage :</label>
+        <input type="text" id="local" placeholder="Local Storage">
+        <br/>
+        <label for="session" >Session Storage :</label>
+        <input type="text" id="session">
+        <br/>
+     
+        <br/>
+        <button id="enregister" onclick="save();">Enregistrer</button>
+        <br/>
+        <button id="getstorage"  onclick="getSession();">Get Storage</button>
+        <br/>
+        <input type="file" accept="image/*;capture=camera" /> <!-- fonctionne sur mobile-->
+        <br/>
+    </div>
+
+    <div id="result"></div>
+
+    <script src="js/index2.js"></script>
+</body>
+</html>

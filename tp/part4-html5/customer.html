@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Customer</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="flex-container">
+        <p>Formulaire Customer</p>
+      <form>
+            <label for="firsname" >firsname :</label>
+            <input type="text" id="firsname" minlength="2" placeholder="firstname" required autofocus/> 
+  
+            <label for="lastname" >lastname :</label>
+            <input type="text" id="lastname" required min="2" placeholder="lastname" />
+ 
+            <label for="gender" >gender :</label>
+            <input type="text" id="gender" placeholder="gender" required pattern="male|female" />
+     
+            <label for="birthday" >birthday :</label>
+            <input type="date" id="birthday" placeholder="birthday" required />
+        
+            <label for="street" >street :</label>
+            <input type="text" id="street" placeholder="street" required />
+         
+            <label for="zipcode" >zipcode :</label>
+            <input type="text" id="zipcode" required pattern="[0-9]{5}" placeholder="zipcode" maxlength="5" required />
+            
+            <label for="city" >city :</label>
+            <input type="text" id="city" placeholder="city" required />
+            
+            <input type="submit" value="Enregistrer" />
+        </form>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

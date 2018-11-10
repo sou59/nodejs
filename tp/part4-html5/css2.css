@@ -1,0 +1,67 @@
+nav {
+    background-color: red;
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        display: block;
+        width: 75%;
+        background-color: green;
+    }
+    li {
+        display: inline;
+    }
+
+}
+
+p.test[title^="test"] {
+    color: purple;
+    background-color: blue;
+}
+
+
+p.test[title$="ine"] {
+    color: rgb(27, 192, 55);
+    background-color: rgb(255, 0, 191);
+}
+
+.example4 div~p{
+    color:#fff;
+}
+
+p::first-line { 
+    text-transform: uppercase 
+}
+/* quand on sélectionne sur la page le p il le colore
+p::selection { 
+    background:#006644 
+}
+*/
+
+/* 
+even
+odd
+3n
+ */
+tr:nth-child(even){
+    background-color: rgb(255, 0, 191);
+}
+tr:nth-child(odd){ 
+    background-color: rgb(187, 255, 0);
+}
+tr:nth-child(3n){ 
+    background-color: rgb(255, 115, 0);
+}
+
+table {
+    width: 50%;
+}
+
+.col-md-8 {
+    background-color: rgb(255, 115, 0);
+}
+
+.col-md-4 {
+    background-color: rgb(187, 255, 0);
+}
+
